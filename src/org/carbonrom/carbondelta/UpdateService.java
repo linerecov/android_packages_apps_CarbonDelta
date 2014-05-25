@@ -1883,9 +1883,10 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
 
                     // Create a list of deltas to apply to get from our current
                     // version to the latest
-                    String fetch = String.format(Locale.ENGLISH, "%s%s.delta",
+                    String fetch = String.format(Locale.ENGLISH, "%s%s-%s.delta",
                             config.getUrlBaseDelta(),
-                            config.getFilenameBase());
+                            config.getFilenameBase(),
+                            config.getDevice());
 
                     while (true) {
                         DeltaInfo delta = null;
