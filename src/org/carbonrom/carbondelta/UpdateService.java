@@ -3,23 +3,23 @@
  * Copyright (C) 2013-2015 The OmniROM Project
  */
 /* 
- * This file is part of OpenDelta.
+ * This file is part of CarbonDelta.
  * 
- * OpenDelta is free software: you can redistribute it and/or modify
+ * CarbonDelta is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  * 
- * OpenDelta is distributed in the hope that it will be useful,
+ * CarbonDelta is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  * 
  * You should have received a copy of the GNU General Public License
- * along with OpenDelta. If not, see <http://www.gnu.org/licenses/>.
+ * along with CarbonDelta. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package eu.chainfire.opendelta;
+package org.carbonrom.carbondelta;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -73,11 +73,11 @@ import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import eu.chainfire.opendelta.BatteryState.OnBatteryStateListener;
-import eu.chainfire.opendelta.DeltaInfo.ProgressListener;
-import eu.chainfire.opendelta.NetworkState.OnNetworkStateListener;
-import eu.chainfire.opendelta.Scheduler.OnWantUpdateCheckListener;
-import eu.chainfire.opendelta.ScreenState.OnScreenStateListener;
+import org.carbonrom.carbondelta.BatteryState.OnBatteryStateListener;
+import org.carbonrom.carbondelta.DeltaInfo.ProgressListener;
+import org.carbonrom.carbondelta.NetworkState.OnNetworkStateListener;
+import org.carbonrom.carbondelta.Scheduler.OnWantUpdateCheckListener;
+import org.carbonrom.carbondelta.ScreenState.OnScreenStateListener;
 
 public class UpdateService extends Service implements OnNetworkStateListener,
 OnBatteryStateListener, OnScreenStateListener,
@@ -122,14 +122,14 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
     public static final String PERMISSION_ACCESS_CACHE_FILESYSTEM = "android.permission.ACCESS_CACHE_FILESYSTEM";
     public static final String PERMISSION_REBOOT = "android.permission.REBOOT";
 
-    public static final String BROADCAST_INTENT = "eu.chainfire.opendelta.intent.BROADCAST_STATE";
-    public static final String EXTRA_STATE = "eu.chainfire.opendelta.extra.ACTION_STATE";
-    public static final String EXTRA_LAST_CHECK = "eu.chainfire.opendelta.extra.LAST_CHECK";
-    public static final String EXTRA_PROGRESS = "eu.chainfire.opendelta.extra.PROGRESS";
-    public static final String EXTRA_CURRENT = "eu.chainfire.opendelta.extra.CURRENT";
-    public static final String EXTRA_TOTAL = "eu.chainfire.opendelta.extra.TOTAL";
-    public static final String EXTRA_FILENAME = "eu.chainfire.opendelta.extra.FILENAME";
-    public static final String EXTRA_MS = "eu.chainfire.opendelta.extra.MS";
+    public static final String BROADCAST_INTENT = "org.carbonrom.carbondelta.intent.BROADCAST_STATE";
+    public static final String EXTRA_STATE = "org.carbonrom.carbondelta.extra.ACTION_STATE";
+    public static final String EXTRA_LAST_CHECK = "org.carbonrom.carbondelta.extra.LAST_CHECK";
+    public static final String EXTRA_PROGRESS = "org.carbonrom.carbondelta.extra.PROGRESS";
+    public static final String EXTRA_CURRENT = "org.carbonrom.carbondelta.extra.CURRENT";
+    public static final String EXTRA_TOTAL = "org.carbonrom.carbondelta.extra.TOTAL";
+    public static final String EXTRA_FILENAME = "org.carbonrom.carbondelta.extra.FILENAME";
+    public static final String EXTRA_MS = "org.carbonrom.carbondelta.extra.MS";
 
     public static final String STATE_ACTION_NONE = "action_none";
     public static final String STATE_ACTION_CHECKING = "action_checking";
@@ -150,13 +150,13 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
     public static final String STATE_ERROR_PERMISSIONS = "error_permissions";
     public static final String STATE_ERROR_FLASH = "error_flash";
 
-    private static final String ACTION_CHECK = "eu.chainfire.opendelta.action.CHECK";
-    private static final String ACTION_FLASH = "eu.chainfire.opendelta.action.FLASH";
-    private static final String ACTION_ALARM = "eu.chainfire.opendelta.action.ALARM";
-    private static final String EXTRA_ALARM_ID = "eu.chainfire.opendelta.extra.ALARM_ID";
-    private static final String ACTION_NOTIFICATION_DELETED = "eu.chainfire.opendelta.action.NOTIFICATION_DELETED";
-    private static final String ACTION_BUILD = "eu.chainfire.opendelta.action.BUILD";
-    private static final String ACTION_UPDATE = "eu.chainfire.opendelta.action.UPDATE";
+    private static final String ACTION_CHECK = "org.carbonrom.carbondelta.action.CHECK";
+    private static final String ACTION_FLASH = "org.carbonrom.carbondelta.action.FLASH";
+    private static final String ACTION_ALARM = "org.carbonrom.carbondelta.action.ALARM";
+    private static final String EXTRA_ALARM_ID = "org.carbonrom.carbondelta.extra.ALARM_ID";
+    private static final String ACTION_NOTIFICATION_DELETED = "org.carbonrom.carbondelta.action.NOTIFICATION_DELETED";
+    private static final String ACTION_BUILD = "org.carbonrom.carbondelta.action.BUILD";
+    private static final String ACTION_UPDATE = "org.carbonrom.carbondelta.action.UPDATE";
 
     private static final int NOTIFICATION_BUSY = 1;
     private static final int NOTIFICATION_UPDATE = 2;
@@ -257,12 +257,12 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
                         config.getKeepScreenOn() ? PowerManager.SCREEN_DIM_WAKE_LOCK
                                 | PowerManager.ACQUIRE_CAUSES_WAKEUP
                                 : PowerManager.PARTIAL_WAKE_LOCK,
-                        "OpenDelta WakeLock");
+                        "CarbonDelta WakeLock");
         wifiLock = ((WifiManager) getSystemService(WIFI_SERVICE))
                 .createWifiLock(WifiManager.WIFI_MODE_FULL,
-                        "OpenDelta WifiLock");
+                        "CarbonDelta WifiLock");
 
-        handlerThread = new HandlerThread("OpenDelta Service Thread");
+        handlerThread = new HandlerThread("CarbonDelta Service Thread");
         handlerThread.start();
         handler = new Handler(handlerThread.getLooper());
 

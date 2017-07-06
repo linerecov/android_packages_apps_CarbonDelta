@@ -3,23 +3,23 @@
  * Copyright (C) 2013-2015 The OmniROM Project
  */
 /* 
- * This file is part of OpenDelta.
+ * This file is part of CarbonDelta.
  * 
- * OpenDelta is free software: you can redistribute it and/or modify
+ * CarbonDelta is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  * 
- * OpenDelta is distributed in the hope that it will be useful,
+ * CarbonDelta is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
  * 
  * You should have received a copy of the GNU General Public License
- * along with OpenDelta. If not, see <http://www.gnu.org/licenses/>.
+ * along with CarbonDelta. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package eu.chainfire.opendelta;
+package org.carbonrom.carbondelta;
 
 import java.io.File;
 import java.util.Calendar;
@@ -124,7 +124,7 @@ public class MainActivity extends Activity {
 
     private void showAbout() {
         int thisYear = Calendar.getInstance().get(Calendar.YEAR);
-        String opendelta = (thisYear == 2013) ? "2013" : "2013-"
+        String carbondelta = (thisYear == 2013) ? "2013" : "2013-"
                 + String.valueOf(thisYear);
         String xdelta = (thisYear == 1997) ? "1997" : "1997-"
                 + String.valueOf(thisYear);
@@ -133,7 +133,7 @@ public class MainActivity extends Activity {
                 .setTitle(R.string.app_name)
                 .setMessage(
                         Html.fromHtml(getString(R.string.about_content)
-                                .replace("_COPYRIGHT_OPENDELTA_", opendelta)
+                                .replace("_COPYRIGHT_CARBONDELTA_", carbondelta)
                                 .replace("_COPYRIGHT_XDELTA_", xdelta)))
                 .setNeutralButton(android.R.string.ok, null)
                 .setCancelable(true).show();

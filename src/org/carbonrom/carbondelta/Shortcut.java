@@ -1,4 +1,4 @@
-package eu.chainfire.opendelta;
+package org.carbonrom.carbondelta;
 
 import android.app.Activity;
 import android.os.Bundle;

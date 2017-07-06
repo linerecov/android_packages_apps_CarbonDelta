@@ -14,7 +14,7 @@
 	<string name="filename_base">omni-%s</string>
 
 	<!-- Path deltas are stored, relative to sdcard root -->
-	<string name="path_base">OpenDelta</string>
+	<string name="path_base">CarbonDelta</string>
 
 	<!-- URL base to find .delta files, %s is expanded to property_device value. Path is suffixed by (expanded) filename_base -->
 	<string name="url_base_delta">https://delta.omnirom.org/weeklies/%s/</string>
