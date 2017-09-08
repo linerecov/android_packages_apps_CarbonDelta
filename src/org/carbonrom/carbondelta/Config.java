@@ -292,6 +292,7 @@ public class Config {
     }
 
     public String getAndroidVersion() {
-        return android_version;
+        String[] parts = android_version.split("-");
+        return parts[0] + parts[1];
     }
 }
