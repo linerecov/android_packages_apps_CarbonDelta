@@ -2387,4 +2387,8 @@ OnWantUpdateCheckListener, OnSharedPreferenceChangeListener {
     public SharedPreferences getPrefs() {
         return prefs;
     }
+
+    public Config getConfig() {
+        return config;
+    }
 }
