@@ -34,7 +34,6 @@
   <string name="state_action_ready">Güncelleme yüklenmeye hazır</string>
   <string name="state_error_disk_space">Yeterli disk alanı yok</string>
   <string name="state_error_unknown">Bilinmeyen hatâ</string>
-  <string name="state_error_unofficial">Güncelleme devre dışı bırakıldı</string>
   <string name="error_disk_space_sub" formatted="false">Diskinizde %d MiB boş alan mevcûd, %d MiB gerekli</string>
   <string name="notify_update_available">Bir güncelleme mevcûd</string>
   <string name="notify_checking">Güncelleme denetleniyor &#8230;</string>
