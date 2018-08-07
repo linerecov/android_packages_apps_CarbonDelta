@@ -24,6 +24,8 @@
     ]]>
 	</string>
   <string name="state_action_none">Váš systém je aktuálny.</string>
+  <string name="state_action_ab_flash">Inštalácia A/B aktualizácie &#8230;</string>
+  <string name="state_action_ab_finished">Aktualizácia nainštalovaná. Čaká sa na reštart &#8230;</string>
   <string name="state_action_checking">Kontrolujú sa aktualizácie &#8230;</string>
   <string name="state_action_checking_md5">Overuje sa súbor &#8230;</string>
   <string name="state_action_searching">Vyhľadávajú sa súbory &#8230;</string>
@@ -38,9 +40,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB dostupných, %d MiB potrebných</string>
   <string name="notify_update_available">Je dostupná aktualizácia</string>
   <string name="notify_checking">Kontroluje sa aktualizácia &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">Zostáva: %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s o %s</string>
   <string name="last_checked_never">Kontrola nebola nikdy vykonaná. Chcete vykonať kontrolu teraz?</string>
   <string name="button_check_short">Skontrolovať</string>
+  <string name="button_reboot_short">Reštartovať</string>
   <string name="button_flash_now">Inštalovať</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Zabezpečenie</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">Vymazaných %d súbor/y/ov. Teraz môžete dotykom „Skontrolovať aktualizácie“</string>
   <string name="state_error_permissions">Chýba povolenie na prístup k úložisku.</string>
   <string name="state_error_flash">Zlyhalo nastavenie inštalácie. Vyčistite oddiel /cache a skúste to znovu.</string>
+  <string name="state_error_ab_flash">Zlyhalo nastavenie inštalácie. Prosím reštartujte a skúste to znovu.</string>
+  <string name="progress_status_0">Čaká sa &#8230;</string>
+  <string name="progress_status_1">Kontrolujú sa aktualizácie &#8230;</string>
+  <string name="progress_status_2">Aktualizácia k dispozícii &#8230;</string>
+  <string name="progress_status_3">Inštalácia &#8230;</string>
+  <string name="progress_status_4">Overuje sa &#8230;</string>
+  <string name="progress_status_5">Dokončuje sa &#8230;</string>
+  <string name="progress_status_6">Aktualizované. Čaká sa na reštart &#8230;</string>
+  <string name="progress_status_7">Hlásenie chybovej udalosti &#8230;</string>
+  <string name="progress_status_8">Pokus o vrátenie späť &#8230;</string>
+  <string name="progress_status_9">Vypnuté.</string>
+  <string name="ab_perf_mode_title">Výkonný režim AB</string>
+  <string name="ab_perf_mode_summary">Na inštaláciu AB aktualizácií použiť Výkonný režim</string>
 </resources>

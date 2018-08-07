@@ -24,6 +24,8 @@
     ]]>
 	</string>
   <string name="state_action_none">Dein System ist auf dem neuesten Stand.</string>
+  <string name="state_action_ab_flash">Installiere A/B Update &#8230;</string>
+  <string name="state_action_ab_finished">Update Installiert. Warte auf Neustart &#8230;</string>
   <string name="state_action_checking">Suche nach Aktualisierungen &#8230;</string>
   <string name="state_action_checking_md5">Überprüfe Datei &#8230;</string>
   <string name="state_action_searching">Suche nach Dateien &#8230;</string>
@@ -38,9 +40,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB verfügbar, %d MiB benötigt</string>
   <string name="notify_update_available">Eine Aktualisierung ist verfügbar</string>
   <string name="notify_checking">Suche nach Aktualisierung &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d verbleibend</string>
   <string name="last_checked" formatted="false">%s um %s</string>
   <string name="last_checked_never">Noch niemals überprüft. Möchtest du jetzt nach Aktualisierungen suchen?</string>
   <string name="button_check_short">Prüfen</string>
+  <string name="button_reboot_short">Neustarten</string>
   <string name="button_flash_now">Jetzt aufspielen</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Sicherheit</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">%d Dateien gelöscht. Jetzt \"Nach Aktualisierungen suchen\" drücken</string>
   <string name="state_error_permissions">Keine Berechtigung zum speichern.</string>
   <string name="state_error_flash">Fehler beim Vorbereiten zum Einspielen. Bitte \"/cache \" bereinigen und wiederholen.</string>
+  <string name="state_error_ab_flash">Fehler beim Vorbereiten. Bitte nach Neustart erneut versuchen.</string>
+  <string name="progress_status_0">Leerlauf &#8230;</string>
+  <string name="progress_status_1">Suche nach Aktualisierungen &#8230;</string>
+  <string name="progress_status_2">Update verfügbar &#8230;</string>
+  <string name="progress_status_3">Installieren &#8230;</string>
+  <string name="progress_status_4">Überprüfen &#8230;</string>
+  <string name="progress_status_5">Finalisieren &#8230;</string>
+  <string name="progress_status_6">Update fertig. Warten auf Neustart &#8230;</string>
+  <string name="progress_status_7">Berichte Error Zustand &#8230;</string>
+  <string name="progress_status_8">Versuche Zurückrollen &#8230;</string>
+  <string name="progress_status_9">Deaktiviert.</string>
+  <string name="ab_perf_mode_title">AB Performance Modus</string>
+  <string name="ab_perf_mode_summary">Nutze Performance Modus um AB Updates zu installieren</string>
 </resources>
