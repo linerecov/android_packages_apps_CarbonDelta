@@ -24,6 +24,8 @@ Všechna práva vyhrazena &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\'
    ]]>
  	</string>
   <string name="state_action_none">Váš systém je aktuální.</string>
+  <string name="state_action_ab_flash">Instalace aktualizace A/B &#8230;</string>
+  <string name="state_action_ab_finished">Aktualizace nainstalována. Čekání na restart &#8230;</string>
   <string name="state_action_checking">Kontroluji aktualizace &#8230;</string>
   <string name="state_action_checking_md5">Ověřování souboru &#8230;</string>
   <string name="state_action_searching">Hledání souborů &#8230;</string>
@@ -38,9 +40,11 @@ Všechna práva vyhrazena &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\'
   <string name="error_disk_space_sub" formatted="false">%d MiB volných, %d MiB požadovaných</string>
   <string name="notify_update_available">Aktualizace je k dispozici</string>
   <string name="notify_checking">Kontrola aktualizací &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">Zbývá %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s v %s</string>
   <string name="last_checked_never">Kontrola nebyla nikdy provedena, možná chcete provést kontrolu nyní?</string>
   <string name="button_check_short">Zkontrolovat</string>
+  <string name="button_reboot_short">Restartovat</string>
   <string name="button_flash_now">Flash</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Zabezpečení</string>
@@ -104,4 +108,17 @@ Všechna práva vyhrazena &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\'
   <string name="clean_files_feedback" formatted="false">Odstraněno %d souborů. Nyní stiskněte tlačítko \"Vyhledat aktualizace\"</string>
   <string name="state_error_permissions">Není oprávnění k přístupu na úložiště.</string>
   <string name="state_error_flash">Nepodařilo se nastavení flash. Vymažte /cache a akci opakujte.</string>
+  <string name="state_error_ab_flash">Nepodařilo se nastavení instalace. Restartujte a zkuste to znovu.</string>
+  <string name="progress_status_0">Čekání &#8230;</string>
+  <string name="progress_status_1">Kontroluji aktualizace &#8230;</string>
+  <string name="progress_status_2">Aktualizace k dispozici &#8230;</string>
+  <string name="progress_status_3">Instalace &#8230;</string>
+  <string name="progress_status_4">Ověřování &#8230;</string>
+  <string name="progress_status_5">Dokončování &#8230;</string>
+  <string name="progress_status_6">Aktualizováno. Čekání na restart &#8230;</string>
+  <string name="progress_status_7">Hlášení o chybě &#8230;</string>
+  <string name="progress_status_8">Pokus o návrat &#8230;</string>
+  <string name="progress_status_9">Zakázáno.</string>
+  <string name="ab_perf_mode_title">Výkonný režim AB</string>
+  <string name="ab_perf_mode_summary">Chcete-li nainstalovat aktualizace AB, použijte výkonný režim</string>
 </resources>

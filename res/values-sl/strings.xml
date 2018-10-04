@@ -24,6 +24,8 @@
     ]]>
 	</string>
   <string name="state_action_none">Vaš sistem je posodobljen.</string>
+  <string name="state_action_ab_flash">Nameščanje A/B posodobitve &#8230;</string>
+  <string name="state_action_ab_finished">Posodobitev nameščena. Čakanje na ponovni zagon &#8230;</string>
   <string name="state_action_checking">Preverjanje za posodobitve &#8230;</string>
   <string name="state_action_checking_md5">Preverjanje datoteke &#8230;</string>
   <string name="state_action_searching">Iskanje datotek &#8230;</string>
@@ -38,9 +40,11 @@
   <string name="error_disk_space_sub" formatted="false">Na voljo %d MiB, zahtevano %d MiB</string>
   <string name="notify_update_available">Na voljo je posodobitev</string>
   <string name="notify_checking">Preverjanje za posodobitve &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">Ostalo %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s ob %s</string>
   <string name="last_checked_never">Še ni bilo preverjeno, ali bi radi to storili?</string>
   <string name="button_check_short">Preveri</string>
+  <string name="button_reboot_short">Ponoven zagon</string>
   <string name="button_flash_now">Namesti</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Varno</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">Izbrisanih %d datotek.  Sedaj pritisnite \'Preveri za posodobitve\'</string>
   <string name="state_error_permissions">Ni dovoljenja za pomnilniško napravo.</string>
   <string name="state_error_flash">Nastavitev namestitve je spodletela.  Počistite /cache in poizkusite znova.</string>
+  <string name="state_error_ab_flash">Nastavitev namestitve je spodletela. Ponovno zaženite napravo in poskusite znova.</string>
+  <string name="progress_status_0">Čakanje &#8230;</string>
+  <string name="progress_status_1">Preverjanje za posodobitve &#8230;</string>
+  <string name="progress_status_2">Posodobitev na voljo &#8230;</string>
+  <string name="progress_status_3">Nameščanje &#8230;</string>
+  <string name="progress_status_4">Preverjanje &#8230;</string>
+  <string name="progress_status_5">Zaključevanje &#8230;</string>
+  <string name="progress_status_6">Posodobljeno. Čakanje na ponovni zagon &#8230;</string>
+  <string name="progress_status_7">Poročanje o napaki &#8230;</string>
+  <string name="progress_status_8">Poskus vrnitve v prejšnje stanje &#8230;</string>
+  <string name="progress_status_9">Onemogočeno.</string>
+  <string name="ab_perf_mode_title">AB zmogljivostni način</string>
+  <string name="ab_perf_mode_summary">Uporabite zmogljivostni način za nameščanje AB posodobitev</string>
 </resources>

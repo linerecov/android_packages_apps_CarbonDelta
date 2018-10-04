@@ -24,6 +24,8 @@
     ]]>
 	</string>
   <string name="state_action_none">Установлена последняя версия ПО.</string>
+  <string name="state_action_ab_flash">Установка обновления A/B &#8230;</string>
+  <string name="state_action_ab_finished">Обновление установлено. Требуется перезагрузка &#8230;</string>
   <string name="state_action_checking">Поиск обновлений &#8230;</string>
   <string name="state_action_checking_md5">Проверка файла &#8230;</string>
   <string name="state_action_searching">Поиск файлов &#8230;</string>
@@ -38,9 +40,11 @@
   <string name="error_disk_space_sub" formatted="false">%d МБ доступно, %d МБ необходимо</string>
   <string name="notify_update_available">Доступно обновление</string>
   <string name="notify_checking">Поиск обновлений &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">Осталось %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s в %s</string>
   <string name="last_checked_never">Поиск обновлений ещё не выполнялся. Возможно, стоит попробовать?</string>
   <string name="button_check_short">Проверить</string>
+  <string name="button_reboot_short">Перезагрузка</string>
   <string name="button_flash_now">Установить</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Безопасный режим</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">Удалено %d файлов. Теперь нажмите «Check for updates»</string>
   <string name="state_error_permissions">Нет разрешения для хранения.</string>
   <string name="state_error_flash">Ошибка установки. Сделайте очистку /cache и попробуйте еще раз.</string>
+  <string name="state_error_ab_flash">Ошибка установки. Перезагрузите устройство и попробуйте еще раз.</string>
+  <string name="progress_status_0">Бездействую &#8230;</string>
+  <string name="progress_status_1">Поиск обновлений &#8230;</string>
+  <string name="progress_status_2">Доступно обновление &#8230;</string>
+  <string name="progress_status_3">Установка &#8230;</string>
+  <string name="progress_status_4">Проверка &#8230;</string>
+  <string name="progress_status_5">Завершающие шаги &#8230;</string>
+  <string name="progress_status_6">Устройство обновлено. Требуется перезагрузка &#8230;</string>
+  <string name="progress_status_7">Ошибка &#8230;</string>
+  <string name="progress_status_8">Пытаюсь откатить &#8230;</string>
+  <string name="progress_status_9">Отключено.</string>
+  <string name="ab_perf_mode_title">Режим производительности AB</string>
+  <string name="ab_perf_mode_summary">Использовать режим производительности для установки обновлений AB</string>
 </resources>

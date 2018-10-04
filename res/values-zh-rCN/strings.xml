@@ -23,6 +23,8 @@
         Delta解码基于 <b>xdelta</b>, 版权&copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
     ]]></string>
   <string name="state_action_none">您的系统已经是最新版本</string>
+  <string name="state_action_ab_flash">正在安装 A/B 更新 &#8230;</string>
+  <string name="state_action_ab_finished">更新完毕。等待重启中 &#8230;</string>
   <string name="state_action_checking">正在检查更新 &#8230;</string>
   <string name="state_action_checking_md5">校验文件 &#8230;</string>
   <string name="state_action_searching">正在查找文件 &#8230;</string>
@@ -37,9 +39,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB 可用, %d MiB 需要</string>
   <string name="notify_update_available">有一个可用更新</string>
   <string name="notify_checking">正在检查更新&#8230;&#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">剩余 %2d%%，%02d:%02d</string>
   <string name="last_checked" formatted="false">%s 在 %s</string>
   <string name="last_checked_never">我们从未检查过，也许您想现在检查？</string>
   <string name="button_check_short">检查</string>
+  <string name="button_reboot_short">重启</string>
   <string name="button_flash_now">刷入</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">安全</string>
@@ -103,4 +107,17 @@
   <string name="clean_files_feedback" formatted="false">已删除 %d 文件。现在按“检查更新”</string>
   <string name="state_error_permissions">没有访问存储的权限。</string>
   <string name="state_error_flash">刷入失败，请清除 /cache 后再试。</string>
+  <string name="state_error_ab_flash">刷入设置失败。请重启后再试。</string>
+  <string name="progress_status_0">闲置中 &#8230;</string>
+  <string name="progress_status_1">正在检查更新 &#8230;</string>
+  <string name="progress_status_2">查到更新 &#8230;</string>
+  <string name="progress_status_3">安装中 &#8230;</string>
+  <string name="progress_status_4">验证中 &#8230;</string>
+  <string name="progress_status_5">即将完毕 &#8230;</string>
+  <string name="progress_status_6">更新完毕。等待重启中 &#8230;</string>
+  <string name="progress_status_7">正在提交事件错误报告 &#8230;</string>
+  <string name="progress_status_8">还原尝试中 &#8230;</string>
+  <string name="progress_status_9">已禁用。</string>
+  <string name="ab_perf_mode_title">AB 高性能模式</string>
+  <string name="ab_perf_mode_summary">使用高性能模式安装 AB 更新</string>
 </resources>

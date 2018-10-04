@@ -15,6 +15,8 @@
   <string name="about_content">
 Copyright © COPYRIGHT CARBONDELTA Jorrit \'Chainfire\' Jongma - Originalmente criado para o projeto de Carbon licenciado sob os termos da GNU General Public License, versão 3.0 (GPLv3) baseada em decodificação Delta, Copyright © COPYRIGHT XDELTA_Joshua MacDonald</string>
   <string name="state_action_none">Seu sistema está atualizado.</string>
+  <string name="state_action_ab_flash">Instalando Atualização A/B &#8230;</string>
+  <string name="state_action_ab_finished">Atualização instalada. Reinicialização pendente &#8230;</string>
   <string name="state_action_checking">Verificando atualizações&#8230;</string>
   <string name="state_action_checking_md5">Verificando arquivo&#8230;</string>
   <string name="state_action_searching">Procurando arquivos&#8230;</string>
@@ -29,9 +31,11 @@ Copyright © COPYRIGHT CARBONDELTA Jorrit \'Chainfire\' Jongma - Originalmente c
   <string name="error_disk_space_sub" formatted="false">%d Mb disponíveis, %d Mb necessários</string>
   <string name="notify_update_available">Há uma atualização disponível</string>
   <string name="notify_checking">Verificando atualizações&#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d restantes</string>
   <string name="last_checked" formatted="false">%s em %s</string>
   <string name="last_checked_never">Nunca verificamos, talvez você queira fazê-lo?</string>
   <string name="button_check_short">Verificar</string>
+  <string name="button_reboot_short">Reiniciar</string>
   <string name="button_flash_now">Instalar</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Seguro</string>
@@ -95,4 +99,17 @@ Copyright © COPYRIGHT CARBONDELTA Jorrit \'Chainfire\' Jongma - Originalmente c
   <string name="clean_files_feedback" formatted="false">%d arquivos apagados. Pressione \'Verificar atualizações\'</string>
   <string name="state_error_permissions">Nenhuma permissão de armazenamento.</string>
   <string name="state_error_flash">Falha de instalação do flash. Limpar /cache e tente novamente.</string>
+  <string name="state_error_ab_flash">Falha de instalação do flash. Por favor reinicie e tente novamente.</string>
+  <string name="progress_status_0">Inativo &#8230;</string>
+  <string name="progress_status_1">Verificando atualizações &#8230;</string>
+  <string name="progress_status_2">Atualização disponível &#8230;</string>
+  <string name="progress_status_3">Instalando &#8230;</string>
+  <string name="progress_status_4">Verificando &#8230;</string>
+  <string name="progress_status_5">Finalizando &#8230;</string>
+  <string name="progress_status_6">Atualizado. Reinicialização pendente &#8230;</string>
+  <string name="progress_status_7">Reportando evento de erro &#8230;</string>
+  <string name="progress_status_8">Tentativa de reversão &#8230;</string>
+  <string name="progress_status_9">Desativado.</string>
+  <string name="ab_perf_mode_title">Modo de desempenho AB</string>
+  <string name="ab_perf_mode_summary">Use o modo de desempenho para instalar atualizações do AB</string>
 </resources>

@@ -23,6 +23,8 @@
         Deltaavkodning baserad på <b>xdelta</b>, Copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
       ]]></string>
   <string name="state_action_none">Ditt system är uppdaterat.</string>
+  <string name="state_action_ab_flash">Installerar A/B-uppdateringen &#8230;</string>
+  <string name="state_action_ab_finished">Uppdateringen installerades. Omstart väntar &#8230;</string>
   <string name="state_action_checking">Söker efter uppdateringar&#8230;</string>
   <string name="state_action_checking_md5">Verifierar fil&#8230;</string>
   <string name="state_action_searching">Söker efter filer&#8230;</string>
@@ -37,9 +39,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB tillgängligt, %d MiB behövs</string>
   <string name="notify_update_available">En uppdatering är tillgänglig</string>
   <string name="notify_checking">Söker efter uppdatering &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d återstår</string>
   <string name="last_checked" formatted="false">%s på %s</string>
   <string name="last_checked_never">Du har aldrig sökt. Vill du göra det nu?</string>
   <string name="button_check_short">Kontrollera</string>
+  <string name="button_reboot_short">Starta om</string>
   <string name="button_flash_now">Blixt</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Säkert läge</string>
@@ -103,4 +107,14 @@
   <string name="clean_files_feedback" formatted="false">Tog bort %d filer. Tryck nu på \'Sök efter uppdateringar\'</string>
   <string name="state_error_permissions">Inga lagringsbehörigheter.</string>
   <string name="state_error_flash">Misslyckades med att installera. Rensa /cache och försök igen.</string>
+  <string name="progress_status_0">Vila &#8230;</string>
+  <string name="progress_status_1">Letar efter uppdateringar &#8230;</string>
+  <string name="progress_status_2">Uppdatering tillgänglig &#8230;</string>
+  <string name="progress_status_3">Installerar &#8230;</string>
+  <string name="progress_status_4">Bekräftar &#8230;</string>
+  <string name="progress_status_5">Slutför &#8230;</string>
+  <string name="progress_status_6">Uppdaterade. Avvaktande omstart &#8230;</string>
+  <string name="progress_status_9">Inaktiverat.</string>
+  <string name="ab_perf_mode_title">AB prestanda-läge</string>
+  <string name="ab_perf_mode_summary">Använd Prestanda-läge för att installera AB-uppdateringar</string>
 </resources>

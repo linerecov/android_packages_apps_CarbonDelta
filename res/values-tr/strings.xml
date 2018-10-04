@@ -4,7 +4,7 @@
   <string name="app_name">CarbonDelta</string>
   <string name="title">Sistem güncellemeleri</string>
   <string name="action_networks">Ağlar</string>
-  <string name="title_networks">Kendiliğinden indirme yapılacak ağlar</string>
+  <string name="title_networks">Otomatik indirme ağları</string>
   <string name="network_2g">2G</string>
   <string name="network_3g">3G</string>
   <string name="network_4g">4G</string>
@@ -23,6 +23,8 @@
         Delta decoding <b>xdelta</b> tabanlıdır, telif hakkı &copy; _COPYRIGHT_XDELTA_<b>Joshua MacDonald</b><br>
     ]]></string>
   <string name="state_action_none">Sisteminiz güncel</string>
+  <string name="state_action_ab_flash">A/B güncellemesi yükleniyor &#8230;</string>
+  <string name="state_action_ab_finished">Güncelleme yüklendi. Yeniden başlatma bekleniyor &#8230;</string>
   <string name="state_action_checking">Güncellemeler denetleniyor &#8230;</string>
   <string name="state_action_checking_md5">Dosya doğrulanıyor &#8230;</string>
   <string name="state_action_searching">Dosyalar aranıyor &#8230;</string>
@@ -35,11 +37,13 @@
   <string name="state_error_disk_space">Yeterli disk alanı yok</string>
   <string name="state_error_unknown">Bilinmeyen hata.</string>
   <string name="error_disk_space_sub" formatted="false">%d MiB kullanılabilir, %d MiB gerekli</string>
-  <string name="notify_update_available">Yeni bir güncelleme mevcut</string>
+  <string name="notify_update_available">Yeni güncelleme mevcut</string>
   <string name="notify_checking">Güncelleme denetleniyor &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d kalan</string>
   <string name="last_checked" formatted="false">%s, %s tarihinde</string>
   <string name="last_checked_never">Hiç kontrol yapılmadı, kontrol etmek ister misiniz?</string>
   <string name="button_check_short">Kontrol et</string>
+  <string name="button_reboot_short">Yeniden başlat</string>
   <string name="button_flash_now">Yükle</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Güvenli</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">%d dosya silindi. Şimdi \'Güncellemeleri kontrol et\' tuşuna dokunun</string>
   <string name="state_error_permissions">Depolama izinleri yok.</string>
   <string name="state_error_flash">Yükleme başarısız oldu. Önbelleği temizleyin ve tekrar deneyin.</string>
+  <string name="state_error_ab_flash">Yükleme ayarlanamadı. Lütfen yeniden başlatıp tekrar deneyin.</string>
+  <string name="progress_status_0">Boşta &#8230;</string>
+  <string name="progress_status_1">Güncellemeler kontrol ediliyor &#8230;</string>
+  <string name="progress_status_2">Güncelleme kullanılabilir &#8230;</string>
+  <string name="progress_status_3">Yükleniyor &#8230;</string>
+  <string name="progress_status_4">Doğrulanıyor &#8230;</string>
+  <string name="progress_status_5">Tamamlanıyor &#8230;</string>
+  <string name="progress_status_6">Güncellendi. Yeniden başlatma bekleniyor &#8230;</string>
+  <string name="progress_status_7">Etkinliği raporlama hatası &#8230;</string>
+  <string name="progress_status_8">Geri almaya çalışıyor &#8230;</string>
+  <string name="progress_status_9">Devredışı.</string>
+  <string name="ab_perf_mode_title">AB performans modu</string>
+  <string name="ab_perf_mode_summary">AB güncellemelerini yüklemek için performans modunu kullanın</string>
 </resources>

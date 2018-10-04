@@ -24,6 +24,8 @@
     ]]>
 	</string>
   <string name="state_action_none">お使いのシステムは最新です</string>
+  <string name="state_action_ab_flash">A/Bアップデートのインストール中&#8230;</string>
+  <string name="state_action_ab_finished">更新をインストールしました。再起動の保留中&#8230;</string>
   <string name="state_action_checking">更新の確認中&#8230;</string>
   <string name="state_action_checking_md5">ファイルの確認中&#8230;</string>
   <string name="state_action_searching">ファイルの検索中&#8230;</string>
@@ -38,9 +40,11 @@
   <string name="error_disk_space_sub" formatted="false">空き領域 %d MB, 必要な領域 %d MB</string>
   <string name="notify_update_available">更新が利用可能です</string>
   <string name="notify_checking">更新の確認中&#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">残り %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s - %s</string>
   <string name="last_checked_never">私たちは決して確認していません。きっとあなたはそうしたいでしょう？</string>
   <string name="button_check_short">確認</string>
+  <string name="button_reboot_short">再起動</string>
   <string name="button_flash_now">フラッシュ</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">セキュア</string>
@@ -104,4 +108,17 @@
   <string name="clean_files_feedback" formatted="false">%d個のファイルを削除しました。「更新を確認」をチェックしてください。</string>
   <string name="state_error_permissions">ストレージの許可がありません</string>
   <string name="state_error_flash">書き込みの開始に失敗しました。 キャッシュを削除して再試行してください。</string>
+  <string name="state_error_ab_flash">書き込みの開始に失敗しました。再起動して再試行してください。</string>
+  <string name="progress_status_0">一時停止中&#8230;</string>
+  <string name="progress_status_1">更新の確認中&#8230;</string>
+  <string name="progress_status_2">更新が利用可能です&#8230;</string>
+  <string name="progress_status_3">インストール中&#8230;</string>
+  <string name="progress_status_4">確認中&#8230;</string>
+  <string name="progress_status_5">ファイナライズ中&#8230;</string>
+  <string name="progress_status_6">更新しました。再起動の保留中&#8230;</string>
+  <string name="progress_status_7">エラーイベントの報告中&#8230;</string>
+  <string name="progress_status_8">ロールバックの試行中&#8230;</string>
+  <string name="progress_status_9">無効</string>
+  <string name="ab_perf_mode_title">A/Bパフォーマンスモード</string>
+  <string name="ab_perf_mode_summary">A/Bアップデートのインストールのためにパフォーマンスモードを使用する</string>
 </resources>
