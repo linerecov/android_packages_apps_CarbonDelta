@@ -117,7 +117,7 @@
 	<string name="progress_status_2">Update available &#8230;</string>
 	<string name="progress_status_3">Installing &#8230;</string>
 	<string name="progress_status_4">Verifying &#8230;</string>
-	<string name="progress_status_5">Finalizing &#8230;</string>
+	<string name="progress_status_5">Finalizing and Optimizing Apps &#8230;</string>
 	<string name="progress_status_6">Updated. Pending Reboot &#8230;</string>
 	<string name="progress_status_7">Reporting Error Event &#8230;</string>
 	<string name="progress_status_8">Attempting Rollback &#8230;</string>
