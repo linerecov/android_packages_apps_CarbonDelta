@@ -12,17 +12,14 @@
   <string name="network_ethernet">Dây nối</string>
   <string name="network_unknown">Khác</string>
   <string name="action_about">Giới thiệu</string>
-  <string name="about_content">
-<![CDATA[
-        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         Created for <b>CarbonROM</b><br>
         <br>
         Licensed under the terms of the <b>GNU General Public License, version 3.0 (GPLv3)</b><br>
         <br>
         Delta decoding based on <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
-    ]]>
-	</string>
+    ]]></string>
   <string name="state_action_none">Hệ thống của bạn là mới nhất.</string>
   <string name="state_action_ab_flash">Tải bản cập nhật A/B &#8230;</string>
   <string name="state_action_ab_finished">Cập nhật đã được cài đặt. Đang chờ khởi động lại &#8230;</string>

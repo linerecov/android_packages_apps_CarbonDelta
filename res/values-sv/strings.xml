@@ -12,8 +12,7 @@
   <string name="network_ethernet">Ethernet</string>
   <string name="network_unknown">Annat</string>
   <string name="action_about">Om</string>
-  <string name="about_content">
-<![CDATA[        
+  <string name="about_content"><![CDATA[        
         Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         Skapad för <b>CarbonROM</b><br>
@@ -107,6 +106,7 @@
   <string name="clean_files_feedback" formatted="false">Tog bort %d filer. Tryck nu på \'Sök efter uppdateringar\'</string>
   <string name="state_error_permissions">Inga lagringsbehörigheter.</string>
   <string name="state_error_flash">Misslyckades med att installera. Rensa /cache och försök igen.</string>
+  <string name="state_error_ab_flash">Misslyckades med att ställa in flashningen. Vänligen starta om och försök igen.</string>
   <string name="progress_status_0">Vila &#8230;</string>
   <string name="progress_status_1">Letar efter uppdateringar &#8230;</string>
   <string name="progress_status_2">Uppdatering tillgänglig &#8230;</string>
@@ -114,6 +114,8 @@
   <string name="progress_status_4">Bekräftar &#8230;</string>
   <string name="progress_status_5">Slutför &#8230;</string>
   <string name="progress_status_6">Uppdaterade. Avvaktande omstart &#8230;</string>
+  <string name="progress_status_7">Rapporterar felhändelsen &#8230;</string>
+  <string name="progress_status_8">Försöker rulla tillbaka &#8230;</string>
   <string name="progress_status_9">Inaktiverat.</string>
   <string name="ab_perf_mode_title">AB prestanda-läge</string>
   <string name="ab_perf_mode_summary">Använd Prestanda-läge för att installera AB-uppdateringar</string>

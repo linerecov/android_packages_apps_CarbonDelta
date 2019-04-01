@@ -92,4 +92,5 @@
   <string name="clean_files_feedback" formatted="false">हटाई गई %d फ़ाइलें. अब \' अद्यतन के लिए जांच \' दबाएँ</string>
   <string name="state_error_permissions">कोई संग्रहण अनुमतियाँ नहीं ।</string>
   <string name="state_error_flash">सेटअप फ़्लैश करने में विफल । कैश साफ़ करे और पुन: प्रयास करें ।</string>
+  <string name="ab_perf_mode_summary">AB अपडेट स्थापित करने के लिए प्रदर्शन मोड का उपयोग करें</string>
 </resources>

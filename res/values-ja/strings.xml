@@ -12,17 +12,14 @@
   <string name="network_ethernet">イーサネット</string>
   <string name="network_unknown">その他</string>
   <string name="action_about">概要</string>
-  <string name="about_content">
-<![CDATA[
-        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         Created for <b>CarbonROM</b><br>
         <br>
         Licensed under the terms of the <b>GNU General Public License, version 3.0 (GPLv3)</b><br>
         <br>
         Delta decoding based on <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
-    ]]>
-	</string>
+    ]]></string>
   <string name="state_action_none">お使いのシステムは最新です</string>
   <string name="state_action_ab_flash">A/Bアップデートのインストール中&#8230;</string>
   <string name="state_action_ab_finished">更新をインストールしました。再起動の保留中&#8230;</string>
@@ -42,16 +39,16 @@
   <string name="notify_checking">更新の確認中&#8230;</string>
   <string name="notify_eta_remaining" formatted="false">残り %2d%%, %02d:%02d</string>
   <string name="last_checked" formatted="false">%s - %s</string>
-  <string name="last_checked_never">私たちは決して確認していません。きっとあなたはそうしたいでしょう？</string>
+  <string name="last_checked_never">私たちは決して確認していません。きっとあなたはそうしたいでしょう?</string>
   <string name="button_check_short">確認</string>
   <string name="button_reboot_short">再起動</string>
   <string name="button_flash_now">フラッシュ</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">セキュア</string>
-  <string name="secure_mode_enabled_title">セキュアモード：有効</string>
+  <string name="secure_mode_enabled_title">セキュアモード: 有効</string>
   <string name="secure_mode_enabled_description"><![CDATA[更新の暗号署名はフラッシュされる前に本物かどうかを確認するために確認され、追加の更新は書き込まれません。このモードは<b>TWRP</b>のみ互換性があります。]]></string>
-  <string name="secure_mode_disabled_title">セキュアモード：無効</string>
-  <string name="secure_mode_disabled_description"><![CDATA[追加の更新が存在する場合はフラッシュさます。どんな（悪意のある）ソフトウェアパッケージでも、これらのアップデートを適用して完全なシステムアクセスを得ることができることに注意して下さい。]]></string>
+  <string name="secure_mode_disabled_title">セキュアモード: 無効</string>
+  <string name="secure_mode_disabled_description"><![CDATA[追加の更新が存在する場合はフラッシュさます。どんな (悪意のある) ソフトウェアパッケージでも、これらのアップデートを適用して完全なシステムアクセスを得ることができることに注意して下さい。]]></string>
   <string name="recovery_notice_title">注意</string>
   <string name="recovery_notice_description_secure"><![CDATA[現在のモードでの更新の書き込みは、<b>TWRP</b>リカバリーのみサポートされています。続行する前に互換性のあるリカバリーを実行していることを確認してください。]]></string>
   <string name="recovery_notice_description_not_secure"><![CDATA[現在のモードでの更新の書き込みは、<b>TWRP</b>リカバリーのみ正式にサポートされています。<b>CWM</b>のいくつかの<i>コミュニティビルド</i>バージョンでは動作する<i>かもしれませんが</i>、<i>公式</i><b>CWM</b>はサポート<i>されていません</i>。続行する前に互換性のあるリカバリーを実行していることを確認してください。]]></string>
@@ -88,8 +85,8 @@
   <string name="notify_title_flash">更新の書き込み準備ができました</string>
   <string name="notify_title_download">更新のダウンロードの準備ができました</string>
   <string name="last_checked_never_title_new">「確認」を押して開始</string>
-  <string name="screen_state_title">画面オフ</string>
-  <string name="screen_state_message">画面がオフの場合のみダウンロードする</string>
+  <string name="screen_state_title">画面を消灯</string>
+  <string name="screen_state_message">画面消灯時の場合のみダウンロードする</string>
   <string name="category_scheduler">自動更新</string>
   <string name="scheduler_mode_title">スケジュールモード</string>
   <string name="scheduler_smart">スマート</string>

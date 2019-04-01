@@ -12,9 +12,7 @@
   <string name="network_ethernet">乙太網路</string>
   <string name="network_unknown">其他</string>
   <string name="action_about">關於</string>
-  <string name="about_content">
-<![CDATA[
-        版權 &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[        版權 &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         为<b>Carbon項目</b>而建立<br>
         <br>
@@ -23,6 +21,8 @@
         Delta解碼基於 <b>xdelta</b>, 版權&copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
     ]]></string>
   <string name="state_action_none">您的系統已是最新版本。</string>
+  <string name="state_action_ab_flash">安裝 A/B 更新 &#8230;</string>
+  <string name="state_action_ab_finished">已安裝更新 重新開機以啟用 &#8230;</string>
   <string name="state_action_checking">檢查更新中...</string>
   <string name="state_action_checking_md5">校對檔案...</string>
   <string name="state_action_searching">正在搜尋檔案...</string>
@@ -37,8 +37,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB 空閒, %d MiB 需要</string>
   <string name="notify_update_available">有一個更新可用</string>
   <string name="notify_checking">正在檢查更新...</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d 剩餘</string>
   <string name="last_checked" formatted="false">%s 在 %s</string>
   <string name="last_checked_never">從未檢查過更新，現在要檢查嗎 ?</string>
+  <string name="button_check_short">檢查</string>
+  <string name="button_reboot_short">重新啟動</string>
   <string name="button_flash_now">刷寫</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">安全</string>
@@ -82,6 +85,7 @@
   <string name="notify_title_error">檢查更新出現問題</string>
   <string name="notify_title_flash">更新已準備好刷寫</string>
   <string name="notify_title_download">有更新可以下載</string>
+  <string name="last_checked_never_title_new">按 \"檢查\" 開始</string>
   <string name="screen_state_title">螢幕關閉</string>
   <string name="screen_state_message">只有在螢幕關閉時才進行下載</string>
   <string name="category_scheduler">自動更新</string>
@@ -102,4 +106,17 @@
   <string name="clean_files_feedback" formatted="false">已刪除 %d 檔案。現在按“檢查更新”</string>
   <string name="state_error_permissions">沒有存取儲存空間的權限</string>
   <string name="state_error_flash">刷寫失敗，請清除 /cache 後在試一次。</string>
+  <string name="state_error_ab_flash">刷寫失敗，充新啟動後在試一次。</string>
+  <string name="progress_status_0">閒置 &#8230;</string>
+  <string name="progress_status_1">檢查更新 &#8230;</string>
+  <string name="progress_status_2">有可用的更新 &#8230;</string>
+  <string name="progress_status_3">安裝中 &#8230;</string>
+  <string name="progress_status_4">驗證中 &#8230;</string>
+  <string name="progress_status_5">即將完成 &#8230;</string>
+  <string name="progress_status_6">更新完成，請重新啟動 &#8230;</string>
+  <string name="progress_status_7">回報錯誤事件 &#8230;</string>
+  <string name="progress_status_8">嘗試回復 &#8230;</string>
+  <string name="progress_status_9">停用.</string>
+  <string name="ab_perf_mode_title">AB 性能模式</string>
+  <string name="ab_perf_mode_summary">使用性能模式安裝 AB 更新</string>
 </resources>

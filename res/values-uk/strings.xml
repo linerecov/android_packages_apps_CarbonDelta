@@ -12,9 +12,7 @@
   <string name="network_ethernet">Ethernet</string>
   <string name="network_unknown">Інші</string>
   <string name="action_about">Про додаток</string>
-  <string name="about_content">
-<![CDATA[
-        Авторські права &copy;_COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>     
+  <string name="about_content"><![CDATA[        Авторські права &copy;_COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>     
         <br>
            Створено для <b> Carbon</b><br>
         <br>
@@ -23,8 +21,7 @@
         <br>
         Дельта кодування на основі <b>xdelta</b>, авторські права &copy;_COPYRIGHT_XDELTA_ 
 <b>Joshua MacDonald</b><br>
-    ]]>
-	</string>
+    ]]></string>
   <string name="state_action_none">Установлена остання версія ПЗ.</string>
   <string name="state_action_checking">Перевірка оновлень&#8230;</string>
   <string name="state_action_checking_md5">Верифікація файлу&#8230;</string>

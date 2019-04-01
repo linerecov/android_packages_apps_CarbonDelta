@@ -12,8 +12,7 @@
   <string name="network_ethernet">Internet</string>
   <string name="network_unknown">Outras</string>
   <string name="action_about">Sobre</string>
-  <string name="about_content">
-Copyright © COPYRIGHT CARBONDELTA Jorrit \'Chainfire\' Jongma - Originalmente criado para o projeto de Carbon licenciado sob os termos da GNU General Public License, versão 3.0 (GPLv3) baseada em decodificação Delta, Copyright © COPYRIGHT XDELTA_Joshua MacDonald</string>
+  <string name="about_content">Copyright © COPYRIGHT CARBONDELTA Jorrit \'Chainfire\' Jongma - Originalmente criado para o projeto de Carbon licenciado sob os termos da GNU General Public License, versão 3.0 (GPLv3) baseada em decodificação Delta, Copyright © COPYRIGHT XDELTA_Joshua MacDonald</string>
   <string name="state_action_none">Seu sistema está atualizado.</string>
   <string name="state_action_ab_flash">Instalando Atualização A/B &#8230;</string>
   <string name="state_action_ab_finished">Atualização instalada. Reinicialização pendente &#8230;</string>
