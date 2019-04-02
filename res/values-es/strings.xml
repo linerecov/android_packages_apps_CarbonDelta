@@ -12,16 +12,13 @@
   <string name="network_ethernet">Ethernet</string>
   <string name="network_unknown">Otros</string>
   <string name="action_about">Acerca de</string>
-  <string name="about_content">
-<![CDATA[
-Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         Creado para <b>el proyecto Carbon</b><br>
         <br>
         Licenciado bajo los términos de la <b>GNU General Public License, version 3.0 (GPLv3)</b><br>
         <br>
-        Decodificación Delta basada en <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
-]]></string>
+        Decodificación Delta basada en <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>]]></string>
   <string name="state_action_none">El sistema está actualizado.</string>
   <string name="state_action_ab_flash">Instalando actualización A/B &#8230;</string>
   <string name="state_action_ab_finished">Actualización instalada. Reinicio pendiente &#8230;</string>
@@ -107,6 +104,7 @@ Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
   <string name="clean_files_feedback" formatted="false">%d archivos borrados. Ahora presione \'Comprobar actualizaciones\'</string>
   <string name="state_error_permissions">Sin permisos de almacenamiento.</string>
   <string name="state_error_flash">Ajuste de flash fallado. Limpia /cache y reintenta.</string>
+  <string name="state_error_ab_flash">No se puedo configurar el flasheo. Por favor reinicia e inténtalo de nuevo.</string>
   <string name="progress_status_0">En espera &#8230;</string>
   <string name="progress_status_1">Comprobando actualizaciones &#8230;</string>
   <string name="progress_status_2">Actualización disponible &#8230;</string>
@@ -114,6 +112,7 @@ Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
   <string name="progress_status_4">Verificando &#8230;</string>
   <string name="progress_status_5">Finalizando &#8230;</string>
   <string name="progress_status_6">Actualizado. Reinicio pendiente &#8230;</string>
+  <string name="progress_status_7">Reportando fallo &#8230;</string>
   <string name="progress_status_8">Intentar restaurar &#8230;</string>
   <string name="progress_status_9">Deshabilitado.</string>
   <string name="ab_perf_mode_title">Modo Rendimiento AB</string>

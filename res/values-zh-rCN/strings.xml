@@ -12,9 +12,7 @@
   <string name="network_ethernet">以太网</string>
   <string name="network_unknown">其他</string>
   <string name="action_about">关于</string>
-  <string name="about_content">
-<![CDATA[
-        版权 &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[        版权 &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         为<b>Carbon项目</b>而创建<br>
         <br>

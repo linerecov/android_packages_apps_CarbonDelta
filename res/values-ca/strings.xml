@@ -12,18 +12,17 @@
   <string name="network_ethernet">Ethernet</string>
   <string name="network_unknown">Altres</string>
   <string name="action_about">Sobre</string>
-  <string name="about_content">
-<![CDATA[
-        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
+  <string name="about_content"><![CDATA[        Copyright &copy; _COPYRIGHT_CARBONDELTA_ <b>Jorrit \'Chainfire\' Jongma</b><br>
         <br>
         Creat originalment per <b>CarbonROM</b><br>
         <br>
         Llicència segons els termes de la <b>GNU General Public License, versió 3.0 (GPLv3)</b><br>
         <br>
         Descodificació Delta basada en <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
-    ]]>
-	</string>
+    ]]></string>
   <string name="state_action_none">El sistema està actualitzat.</string>
+  <string name="state_action_ab_flash">S\'està instal·lant l\'actualització de l\'A/B &#8230;</string>
+  <string name="state_action_ab_finished">Actualització instal·lada. Reinicia pendent &#8230;</string>
   <string name="state_action_checking">Comprovant si hi ha actualitzacions disponibles &#8230;</string>
   <string name="state_action_checking_md5">Verificant arxiu &#8230;</string>
   <string name="state_action_searching">Buscant arxius &#8230;</string>
@@ -38,8 +37,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB disponible, %d MiB necesari</string>
   <string name="notify_update_available">Una actualització està disponible</string>
   <string name="notify_checking">S\'està cercant una actualització &#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d restant</string>
   <string name="last_checked" formatted="false">%s a %s</string>
   <string name="last_checked_never">No s\'ha comprovat mai, voldríeu fer-ho?</string>
+  <string name="button_check_short">Comprova</string>
+  <string name="button_reboot_short">Reinicia</string>
   <string name="button_flash_now">Instal·la</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Mode Segur</string>
@@ -82,6 +84,7 @@
   <string name="notify_title_error">Problema cercant actualitzacions</string>
   <string name="notify_title_flash">Actualització llesta per instal·lar</string>
   <string name="notify_title_download">Actualització llesta per baixar</string>
+  <string name="last_checked_never_title_new">Premeu \"Comprova\" per començar</string>
   <string name="screen_state_title">Pantalla apagada</string>
   <string name="screen_state_message">Baixa només si la pantalla està apagada</string>
   <string name="category_scheduler">Actualització automàtica</string>
@@ -102,4 +105,16 @@
   <string name="clean_files_feedback" formatted="false">S\'ha suprimit %d fitxers. Ara premeu «Cerca d\'actualitzacions»</string>
   <string name="state_error_permissions">Sense permisos d\'emmagatzematge.</string>
   <string name="state_error_flash">No s\'ha pogut preparar la instal·lació. Netegeu la memòria cau i torneu-ho a intentar.</string>
+  <string name="state_error_ab_flash">No s\'ha pogut configurar el flaix. Reinicieu i torneu a intentar.</string>
+  <string name="progress_status_0">Inactiu &#8230;</string>
+  <string name="progress_status_1">S\'estan consultant actualitzacions &#8230;</string>
+  <string name="progress_status_2">Actualització disponible &#8230;</string>
+  <string name="progress_status_3">Instal·lant &#8230;</string>
+  <string name="progress_status_4">Verificant &#8230;</string>
+  <string name="progress_status_6">Actualitzat. Pendent de reinici &#8230;</string>
+  <string name="progress_status_7">S\'ha produït un error en informar &#8230;</string>
+  <string name="progress_status_8">S\'està intentant revertir &#8230;</string>
+  <string name="progress_status_9">S\'ha desactivat.</string>
+  <string name="ab_perf_mode_title">Mode de rendiment AB</string>
+  <string name="ab_perf_mode_summary">Utilitzeu Mode de Rendiment per instal·lar actualitzacions AB</string>
 </resources>
