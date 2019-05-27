@@ -21,6 +21,8 @@
         Descodificação Delta baseada em <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
     ]]></string>
   <string name="state_action_none">O seu sistema está actualizado.</string>
+  <string name="state_action_ab_flash">A instalar atualização A/B &#8230;</string>
+  <string name="state_action_ab_finished">Atualização instalada. Reiniciação pendente &#8230;</string>
   <string name="state_action_checking">À procura de actualizações&#8230;</string>
   <string name="state_action_checking_md5">A verificar o ficheiro&#8230;</string>
   <string name="state_action_searching">À procura de ficheiros&#8230;</string>
@@ -35,9 +37,11 @@
   <string name="error_disk_space_sub" formatted="false">%d Mb disponíveis, %d Mb necessários</string>
   <string name="notify_update_available">Existem actualizações disponíveis</string>
   <string name="notify_checking">À procura de actualizações&#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d restantes</string>
   <string name="last_checked" formatted="false">%s em %s</string>
   <string name="last_checked_never">Nunca verificamos, pretende verificar agora?</string>
   <string name="button_check_short">Verificar</string>
+  <string name="button_reboot_short">Reiniciar</string>
   <string name="button_flash_now">Flash</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Seguro</string>
@@ -101,5 +105,17 @@
   <string name="clean_files_feedback" formatted="false">%d arquivos eliminados. Agora pressione \'Verificar atualizações\'</string>
   <string name="state_error_permissions">Sem permissões de armazenamento.</string>
   <string name="state_error_flash">Erro ao preparar instalação. Limpe /cache e tente novamente.</string>
+  <string name="state_error_ab_flash">Falha de instalação do flash. Por favor reinicie e volte a tentar.</string>
+  <string name="progress_status_0">Inativo &#8230;</string>
+  <string name="progress_status_1">À procura de actualizações &#8230;</string>
+  <string name="progress_status_2">Atualização disponível &#8230;</string>
+  <string name="progress_status_3">A instalar &#8230;</string>
+  <string name="progress_status_4">A verificar &#8230;</string>
   <string name="progress_status_5">Finalizando &#8230;</string>
+  <string name="progress_status_6">Atualizado. Reiniciação pendente &#8230;</string>
+  <string name="progress_status_7">A reportar o evento de erro &#8230;</string>
+  <string name="progress_status_8">A tentar fazer reversão &#8230;</string>
+  <string name="progress_status_9">Desativo.</string>
+  <string name="ab_perf_mode_title">Modo de Desempenho AB</string>
+  <string name="ab_perf_mode_summary">Usar Modo de Desempenho para instalar atualizações AB</string>
 </resources>
