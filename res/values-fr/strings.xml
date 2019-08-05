@@ -21,6 +21,8 @@
         Delta decoding basé sur <b>xdelta</b>, copyright &copy; _COPYRIGHT_XDELTA_ <b>Joshua MacDonald</b><br>
     ]]></string>
   <string name="state_action_none">Votre système est à jour.</string>
+  <string name="state_action_ab_flash">Installation de la mise à jour A/B &#8230;</string>
+  <string name="state_action_ab_finished">Mise à jour installée. En attente de redémarrage &#8230;</string>
   <string name="state_action_checking">Vérification des mises à jour&#8230;</string>
   <string name="state_action_checking_md5">Vérification du fichier&#8230;</string>
   <string name="state_action_searching">Recherche des fichiers&#8230;</string>
@@ -35,9 +37,11 @@
   <string name="error_disk_space_sub" formatted="false">%d MiB disponible, %d MiB nécessaire</string>
   <string name="notify_update_available">Une mise à jour est disponible</string>
   <string name="notify_checking">Vérification des mises à jour disponibles&#8230;</string>
+  <string name="notify_eta_remaining" formatted="false">%2d%%, %02d:%02d restants</string>
   <string name="last_checked" formatted="false">%s à %s</string>
   <string name="last_checked_never">Nous n\'avons jamais effectué de vérification, voulez-vous le faire maintenant\u00A0?</string>
   <string name="button_check_short">Vérifier</string>
+  <string name="button_reboot_short">Redémarrage</string>
   <string name="button_flash_now">Installer</string>
   <!-- updates from 2013/12/18 -->
   <string name="action_secure_mode">Sécurité</string>
@@ -101,4 +105,15 @@
   <string name="clean_files_feedback" formatted="false">%d fichiers supprimés. Appuyer maintenant sur \'Vérifier les mises à jour disponibles\'</string>
   <string name="state_error_permissions">Aucune autorisation de stockage.</string>
   <string name="state_error_flash">Échec de la préparation de mise à jour. Supprimer le contenu du /cache et réessayer.</string>
+  <string name="state_error_ab_flash">Échec de la préparation de la mise à jour. Veuillez redémarrer et réessayer.</string>
+  <string name="progress_status_0">Au repos &#8230;</string>
+  <string name="progress_status_1">Vérification des mises à jour disponibles &#8230;</string>
+  <string name="progress_status_2">Mise à jour disponible &#8230;</string>
+  <string name="progress_status_3">Instalation &#8230;</string>
+  <string name="progress_status_4">Vérification &#8230;</string>
+  <string name="progress_status_5">Finalisation &#8230;</string>
+  <string name="progress_status_6">Mis à jour. En attente de redémarrage &#8230;</string>
+  <string name="progress_status_7">Signalement de l\'erreur &#8230;</string>
+  <string name="progress_status_9">Désactivé.</string>
+  <string name="ab_perf_mode_summary">Utiliser le mode Performance pour installer les mises à jour AB</string>
 </resources>
