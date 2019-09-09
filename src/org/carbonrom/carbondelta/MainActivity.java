@@ -523,7 +523,7 @@ public class MainActivity extends Activity {
             return;
         }
 
-        ((PowerManager) getSystemService(Context.POWER_SERVICE)).rebootCustom(null);
+        ((PowerManager) getSystemService(Context.POWER_SERVICE)).reboot(null);
     }
 
     public void onButtonBuildNowClick(View v) {
